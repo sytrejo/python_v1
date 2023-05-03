@@ -1,8 +1,13 @@
+def computePay(hours, rate):
+    print("In computepay", hours, rate)
+    
+    
 sh = input("Enter Hours: ")
 sr = input("Enter Rate: ")
 fh = float(sh)
 fr = float(sr)
 
+computePay(fh, fr)
 
 if fh > 40:
     reg = fr * fh
